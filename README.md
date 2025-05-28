@@ -63,7 +63,7 @@ _Example using ECV Component_
 
 
 ```typescript
-    /*outros códigos*/
+    /*other code*/
     ...
 
     render(): TemplateResult {
