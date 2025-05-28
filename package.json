@@ -3,7 +3,10 @@
   "private": false,
   "version": "0.0.1",
   "description": "Pacote de web componentes feito para criação de layouts.",
-  "type": "module",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "license": "ISC",
   "keywords": ["web componentes","lit element", "layout", "ecv","components"],
   "scripts": {
     "dev": "vite --host --port 5180",
