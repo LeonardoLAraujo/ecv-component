@@ -7,10 +7,16 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "license": "ISC",
-  "keywords": ["web componentes","lit element", "layout", "ecv","components"],
+  "keywords": [
+    "web componentes",
+    "lit element",
+    "layout",
+    "ecv",
+    "components"
+  ],
   "scripts": {
     "dev": "vite --host --port 5180",
-    "build": "tsc && vite build",
+    "build": "tsup",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,8 +24,19 @@
   },
   "devDependencies": {
     "jsdoc": "^4.0.2",
+    "tsup": "^8.5.0",
     "typedoc": "^0.25.7",
-    "typescript": "^5.2.2",
+    "typescript": "^5.8.3",
     "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonardoLAraujo/ecv-components"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
