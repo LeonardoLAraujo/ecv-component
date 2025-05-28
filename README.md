@@ -1,42 +1,45 @@
-# ECV COMPONENTS
+# ECV COMPONENT
 
-## O que é:
+## What it is:
 
-É um conjunto de <a href="https://www.webcomponents.org/introduction" target="_blank">**Web Componentes**</a> criado usando a biblioteca <a href="https://lit.dev/" target="_blank">**Lit Element**</a>, com o intuito de reaproveitar, acelerar e padronizar o desenvolvimento de projetos para o setor.
-
-
-## Estudo de caso
-
-Durante aproximadamente um mês foram realizados diversos estudos e testes para encontrar uma forma de agilizar o processo de desenvolvimento na criação de layouts. Para isso, vários templates de diversos tipos layouts na web foram estudados dentre esses, alguns foram selecionados para que fosse feito a mesma montagem de sua estrutura de layout usando o <a href="#md:ecv-components">**ECV Components**</a>.
+It is a set of  <a href="https://www.webcomponents.org/introduction" target="_blank">**Web Componentes**</a> created using the <a href="https://lit.dev/" target="_blank">**Lit Element**</a> library, aiming to reuse, speed up, and standardize project development for the sector.
 
 
-## Por que usar ECV Components?
+## Case Study
 
-Percebeu que a cada projeto novo criado, precisaria recriar tudo novamente, refazer alguns componentes já criados em projetos
-passados para sanar esse problema, foi desenvolvida a biblioteca <a href="#md:ecv-components">**ECV Components**</a>. A origem do nome veio das letras abreviadas <br>**(E C V)** que significam **Elementos de Componentização Visual — Um nome que destaca a criação de componentes visuais reutilizáveis**.
+For about a month, several studies and tests were carried out to find a way to streamline the development process for creating layouts. Various templates and web layout types were analyzed, and some were selected to be reconstructed using the <a href="#md:ecv-components">**ECV Component**</a> structure.
 
-## Instalação
+
+## Why use ECV Component?
+
+It became evident that with every new project created, everything had to be rebuilt, including recreating some components that had already been developed in past projects. To solve this problem, the <a href="#md:ecv-components">**ECV Component**</a> library was developed. The name originated from the abbreviated letters
+<br>**(E C V)** which stand for **Elementos de Componentização Visual — A name that highlights the creation of reusable visual components**.
+
+## Installation
 npm install ecv-components
 
-## Importação
-import 'ecv-components' Ou, para componentes específicos:
+## Import
+```typescript
+import 'ecv-components' 
+// Or, for specific components:
 import { MeuComponente } from 'ecv-components'
+```
 
-## Usando ECV Components
+## Using ECV Component
 
-### Básico sobre construção de layouts
+### Basics of Layout Construction
 
-Você pode criar layouts usando o <a href="#md:ecv-components">**ECV Components**</a>, simplesmente adicionando os componentes para compor seu projeto, mas é recomendado usar **três** componentes específicos para isso, são eles:
+You can create layouts using <a href="#md:ecv-components">**ECV Component**</a>, simply by adding the components to your project. However, it is recommended to use three specific components for this purpose:
 
-- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> - Layout com posicionamento horizontal.
-- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_column.ECVFlexColumn.html" target="_blank">**ECV Column**</a> - Layout com posicionamento vertical.
-- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_grid.ECVGrid.html" target="_blank">**ECV Grid**</a> - Layout em forma de grid.
+- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> - Layout with horizontal positioning.
+- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_column.ECVFlexColumn.html" target="_blank">**ECV Column**</a> - Layout with vertical positioning.
+- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_grid.ECVGrid.html" target="_blank">**ECV Grid**</a> - Grid layout.
 
-#### Layout com foco em posicionamento horizontal
+#### Layout focusing on horizontal positioning
 
-Para se criar um layout com posicionamento horizontal usa-se o componente <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a>. Veja abaixo um mesmo cenário usando a apenas estrutura HTML e outro usando, a estrutura **ECV Component**.
+To create a layout with horizontal positioning, use the <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a>component. See below the same scenario using just HTML structure and another using the **ECV Component** structure.
 
-_Exemplo usando HTML_
+_Example using HTML_
 
 ```html
     <style>
@@ -56,7 +59,7 @@ _Exemplo usando HTML_
 ```
 <br>
 
-_Exemplo usando ECV Components_
+_Example using ECV Component_
 
 
 ```typescript
@@ -76,30 +79,30 @@ _Exemplo usando ECV Components_
     
 ```
 
+## Documentation
 
-## Documentação
+The complete documentation, including usage examples, installation instructions, and detailed explanations of each component of the ECV Component library, is available on our official GitHub repository.
 
-A documentação completa, incluindo exemplos de uso, instalação, e explicações detalhadas sobre cada componente da biblioteca ECV Components, está disponível no nosso repositório oficial no GitHub.
-
-Acesse:
+Access it here:
 
 https://github.com/LeonardoLAraujo/ecv-components
 
-## Site da Documentação
+## Documentation Website
+
 https://leonardolaraujo.github.io/ecv-components/
 
-Lá você encontrará:
+There you will find:
 
-Guia de instalação passo a passo
+Step-by-step installation guide
 
-Exemplos práticos de utilização
+Practical usage examples
 
-Detalhamento de cada componente
+Detailed explanation of each component
 
-Como contribuir com o projeto
+How to contribute to the project
 
-Resolução de problemas comuns
+Common troubleshooting
 
-Recomendamos fortemente consultar a documentação no GitHub para aproveitar ao máximo todos os recursos da biblioteca.
+We highly recommend consulting the GitHub documentation to take full advantage of all the library's features.
 
-ECV Components — Facilitando a criação de layouts com web components.
+ECV Component — Simplifying layout creation with web components.

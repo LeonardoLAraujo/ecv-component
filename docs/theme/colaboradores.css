@@ -59,8 +59,37 @@
     font-weight: 600;
   }
   .informacao__cargo{
-      font-size: 12px;
+      font-size: 13px;
   }
+
+  .informação__card--divisor p{
+    text-align: left;
+  }
+
+  .card__media{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .card__media img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  .informacao__social{
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      color: black;
+      text-align: left;
+  }
+
+  .informacao__social:hover{
+    color: #868181;
+  }
+
   .informação__dierecionamento{
       display: flex;
       align-items: center;
