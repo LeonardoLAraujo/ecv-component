@@ -1,0 +1,22 @@
+{
+  "name": "ecv-components",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Pacote de web componentes feito para criação de layouts.",
+  "type": "module",
+  "keywords": ["web componentes","lit element", "layout", "ecv","components"],
+  "scripts": {
+    "dev": "vite --host --port 5180",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.1.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2",
+    "typedoc": "^0.25.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
