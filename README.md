@@ -16,13 +16,15 @@ It became evident that with every new project created, everything had to be rebu
 <br>**(E C V)** which stand for **Elementos de Componentização Visual — A name that highlights the creation of reusable visual components**.
 
 ## Installation
-npm install ecv-components
+```typescript
+npm install ecv-component
+```
 
 ## Import
 ```typescript
-import 'ecv-components' 
-// Or, for specific components:
-import { MeuComponente } from 'ecv-components'
+import 'ecv-component' 
+// Or, for specific component:
+import { MeuComponente } from 'ecv-component'
 ```
 
 ## Using ECV Component
