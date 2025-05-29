@@ -8,12 +8,12 @@ It is a set of  <a href="https://www.webcomponents.org/introduction" target="_bl
 
 ## Case Study
 
-For about a month, several studies and tests were carried out to find a way to streamline the development process for creating layouts. Various templates and web layout types were analyzed, and some were selected to be reconstructed using the <a href="https://leonardolaraujo.github.io/ecv-components/index.html">**ECV Component**</a> structure.
+For about a month, several studies and tests were carried out to find a way to streamline the development process for creating layouts. Various templates and web layout types were analyzed, and some were selected to be reconstructed using the <a href="https://leonardolaraujo.github.io/ecv-component/index.html">**ECV Component**</a> structure.
 
 
 ## Why use ECV Component?
 
-It became evident that with every new project created, everything had to be rebuilt, including recreating some components that had already been developed in past projects. To solve this problem, the <a href="https://leonardolaraujo.github.io/ecv-components/index.html">**ECV Component**</a> library was developed. The name originated from the abbreviated letters
+It became evident that with every new project created, everything had to be rebuilt, including recreating some components that had already been developed in past projects. To solve this problem, the <a href="https://leonardolaraujo.github.io/ecv-component/index.html">**ECV Component**</a> library was developed. The name originated from the abbreviated letters
 <br>**(E C V)** which stand for **Visual Componentization Elements — A name that highlights the creation of reusable visual components**.
 
 ## Installation
@@ -33,15 +33,15 @@ import type {BoxDecorationStyle} from 'ecv-component';
 
 ### Basics of Layout Construction
 
-You can create layouts using <a href="https://leonardolaraujo.github.io/ecv-components/index.html">**ECV Component**</a>, simply by adding the components to your project. However, it is recommended to use three specific components for this purpose:
+You can create layouts using <a href="https://leonardolaraujo.github.io/ecv-component/index.html">**ECV Component**</a>, simply by adding the components to your project. However, it is recommended to use three specific components for this purpose:
 
-- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> - Layout with horizontal positioning.
-- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_column.ECVFlexColumn.html" target="_blank">**ECV Column**</a> - Layout with vertical positioning.
-- <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_grid.ECVGrid.html" target="_blank">**ECV Grid**</a> - Grid layout.
+- <a href="https://leonardolaraujo.github.io/ecv-component/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> - Layout with horizontal positioning.
+- <a href="https://leonardolaraujo.github.io/ecv-component/classes/components_ecv_flex_column.ECVFlexColumn.html" target="_blank">**ECV Column**</a> - Layout with vertical positioning.
+- <a href="https://leonardolaraujo.github.io/ecv-component/classes/components_ecv_grid.ECVGrid.html" target="_blank">**ECV Grid**</a> - Grid layout.
 
 #### Layout focusing on horizontal positioning
 
-To create a layout with horizontal positioning, use the <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> component. See below the same scenario using just HTML structure and another using the **ECV Component** structure.
+To create a layout with horizontal positioning, use the <a href="https://leonardolaraujo.github.io/ecv-component/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> component. See below the same scenario using just HTML structure and another using the **ECV Component** structure.
 
 _Example using HTML_
 
@@ -89,11 +89,11 @@ The complete documentation, including usage examples, installation instructions,
 
 Access it here:
 
-https://github.com/LeonardoLAraujo/ecv-components
+https://github.com/LeonardoLAraujo/ecv-component
 
 ## Documentation Website
 
-https://leonardolaraujo.github.io/ecv-components/
+https://leonardolaraujo.github.io/ecv-component/
 
 There you will find:
 
