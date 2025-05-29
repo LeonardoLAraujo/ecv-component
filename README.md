@@ -1,5 +1,6 @@
 # ECV COMPONENT
 
+
 ## What it is:
 
 It is a set of  <a href="https://www.webcomponents.org/introduction" target="_blank">**Web Componentes**</a> created using the <a href="https://lit.dev/" target="_blank">**Lit Element**</a> library, aiming to reuse, speed up, and standardize project development for the sector.
@@ -7,13 +8,13 @@ It is a set of  <a href="https://www.webcomponents.org/introduction" target="_bl
 
 ## Case Study
 
-For about a month, several studies and tests were carried out to find a way to streamline the development process for creating layouts. Various templates and web layout types were analyzed, and some were selected to be reconstructed using the <a href="#md:ecv-components">**ECV Component**</a> structure.
+For about a month, several studies and tests were carried out to find a way to streamline the development process for creating layouts. Various templates and web layout types were analyzed, and some were selected to be reconstructed using the <a href="https://leonardolaraujo.github.io/ecv-components/index.html">**ECV Component**</a> structure.
 
 
 ## Why use ECV Component?
 
-It became evident that with every new project created, everything had to be rebuilt, including recreating some components that had already been developed in past projects. To solve this problem, the <a href="#md:ecv-components">**ECV Component**</a> library was developed. The name originated from the abbreviated letters
-<br>**(E C V)** which stand for **Elementos de Componentização Visual — A name that highlights the creation of reusable visual components**.
+It became evident that with every new project created, everything had to be rebuilt, including recreating some components that had already been developed in past projects. To solve this problem, the <a href="https://leonardolaraujo.github.io/ecv-components/index.html">**ECV Component**</a> library was developed. The name originated from the abbreviated letters
+<br>**(E C V)** which stand for **Visual Componentization Elements — A name that highlights the creation of reusable visual components**.
 
 ## Installation
 ```typescript
@@ -22,16 +23,17 @@ npm install ecv-component
 
 ## Import
 ```typescript
+//importing the entire library
 import 'ecv-component' 
-// Or, for specific component:
-import { MeuComponente } from 'ecv-component'
+// Or import a specific type
+import type {BoxDecorationStyle} from 'ecv-component';
 ```
 
 ## Using ECV Component
 
 ### Basics of Layout Construction
 
-You can create layouts using <a href="#md:ecv-components">**ECV Component**</a>, simply by adding the components to your project. However, it is recommended to use three specific components for this purpose:
+You can create layouts using <a href="https://leonardolaraujo.github.io/ecv-components/index.html">**ECV Component**</a>, simply by adding the components to your project. However, it is recommended to use three specific components for this purpose:
 
 - <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> - Layout with horizontal positioning.
 - <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_column.ECVFlexColumn.html" target="_blank">**ECV Column**</a> - Layout with vertical positioning.
@@ -39,7 +41,7 @@ You can create layouts using <a href="#md:ecv-components">**ECV Component**</a>,
 
 #### Layout focusing on horizontal positioning
 
-To create a layout with horizontal positioning, use the <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a>component. See below the same scenario using just HTML structure and another using the **ECV Component** structure.
+To create a layout with horizontal positioning, use the <a href="https://leonardolaraujo.github.io/ecv-components/classes/components_ecv_flex_row.ECVFlexRow.html" target="_blank">**ECV Row**</a> component. See below the same scenario using just HTML structure and another using the **ECV Component** structure.
 
 _Example using HTML_
 
@@ -106,5 +108,8 @@ How to contribute to the project
 Common troubleshooting
 
 We highly recommend consulting the GitHub documentation to take full advantage of all the library's features.
+
+## I recorded building a small layout using ecv components
+https://www.youtube.com/watch?v=tPBbeszlIXw
 
 ECV Component — Simplifying layout creation with web components.
