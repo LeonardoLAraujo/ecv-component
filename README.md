@@ -1,5 +1,6 @@
 # ECV COMPONENT
 
+<img src="./docs/assets/icon.png" width="60px">
 
 ## What it is:
 
