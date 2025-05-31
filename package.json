@@ -1,7 +1,7 @@
 {
   "name": "ecv-component",
   "private": false,
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Pacote de web componentes feito para criação de layouts.",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.cjs",
@@ -23,7 +23,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lit": "^3.1.1"
+    "lit": "^3.3.0"
   },
   "devDependencies": {
     "jsdoc": "^4.0.2",
