@@ -1,5 +1,9 @@
 # ECV COMPONENT
 
+[![npm version](https://img.shields.io/npm/v/ecv-component.svg)](https://www.npmjs.com/package/ecv-component)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/npm/dm/ecv-component.svg)](https://www.npmjs.com/package/ecv-component)
+
 <img src="./docs/assets/icon.png" width="170px">
 
 ## What it is:
