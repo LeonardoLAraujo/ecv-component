@@ -1,7 +1,7 @@
 # ECV COMPONENT
 
 [![npm version](https://img.shields.io/npm/v/ecv-component.svg)](https://www.npmjs.com/package/ecv-component)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![Downloads](https://img.shields.io/npm/dm/ecv-component.svg)](https://www.npmjs.com/package/ecv-component)
 
 <img src="./docs/assets/icon.png" width="170px">
