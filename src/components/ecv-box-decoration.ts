@@ -265,13 +265,6 @@ connectedCallback(): void {
  */
 render(): TemplateResult {
         return html`
-            ${this.decoration?.borderAllRadius !== 'unset' ? html`
-                    <style>
-                        :host{
-                            border-radius: ${this.decoration?.borderAllRadius === undefined ? "0" : this.decoration?.borderAllRadius} !important;
-                        }
-                    </style>
-            `: html``}
             <style>
                 :host{
                     display:                    ${this.decoration?.visible === undefined ? "block" : this.decoration?.visible ? 'block' : 'none'};
@@ -280,10 +273,11 @@ render(): TemplateResult {
                     border-bottom:              ${this.decoration?.borderBottom === undefined ? "0" : this.decoration?.borderBottom};
                     border-left:                ${this.decoration?.borderLeft  === undefined ? "0" : this.decoration?.borderLeft};
                     border:                     ${this.decoration?.borderAll === undefined ? "" : this.decoration?.borderAll};
-                    border-top-right-radius:    ${this.decoration?.borderTopRightRadius === undefined ? "0" : this.decoration?.borderTopRightRadius};
-                    border-top-left-radius:     ${this.decoration?.borderTopLeftRadius === undefined ? "0" : this.decoration?.borderTopLeftRadius};
-                    border-bottom-right-radius: ${this.decoration?.borderBottomRightRadius === undefined ? "0" : this.decoration?.borderBottomRightRadius};
-                    border-bottom-left-radius:  ${this.decoration?.borderBottomLeftRadius === undefined ? "0" : this.decoration?.borderBottomLeftRadius};
+                    border-top-right-radius:    ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderTopRightRadius === undefined ? "0" : this.decoration?.borderTopRightRadius : "0"};
+                    border-top-left-radius:     ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderTopLeftRadius === undefined ? "0" : this.decoration?.borderTopLeftRadius : "0"};
+                    border-bottom-right-radius: ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderBottomRightRadius === undefined ? "0" : this.decoration?.borderBottomRightRadius : "0"};
+                    border-bottom-left-radius:  ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderBottomLeftRadius === undefined ? "0" : this.decoration?.borderBottomLeftRadius : "0"};
+                    border-radius:              ${this.decoration?.borderAllRadius === undefined ? "0" : this.decoration?.borderAllRadius};
                     background-color:           ${this.decoration?.backgroundColor === undefined ? "none" : this.decoration?.backgroundColor};
                     box-shadow:                 ${this.decoration?.boxShadow === undefined ? "none" : this.decoration?.boxShadow};
                     width: ${this.decoration?.width === undefined  && this.parentElement?.tagName === 'ECV-FLEX-BOX' ? "-webkit-fill-available" : this.decoration?.width === undefined ? 'auto' : this.decoration?.width};
