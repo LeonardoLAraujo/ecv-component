@@ -277,7 +277,7 @@ render(): TemplateResult {
                     border-top-left-radius:     ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderTopLeftRadius === undefined ? "0" : this.decoration?.borderTopLeftRadius : "0"};
                     border-bottom-right-radius: ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderBottomRightRadius === undefined ? "0" : this.decoration?.borderBottomRightRadius : "0"};
                     border-bottom-left-radius:  ${this.decoration?.borderAllRadius === undefined ? this.decoration?.borderBottomLeftRadius === undefined ? "0" : this.decoration?.borderBottomLeftRadius : "0"};
-                    border-radius:              ${this.decoration?.borderAllRadius === undefined ? "0" : this.decoration?.borderAllRadius};
+                    border-radius:              ${this.decoration?.borderAllRadius === undefined ? "" : this.decoration?.borderAllRadius};
                     background-color:           ${this.decoration?.backgroundColor === undefined ? "none" : this.decoration?.backgroundColor};
                     box-shadow:                 ${this.decoration?.boxShadow === undefined ? "none" : this.decoration?.boxShadow};
                     width: ${this.decoration?.width === undefined  && this.parentElement?.tagName === 'ECV-FLEX-BOX' ? "-webkit-fill-available" : this.decoration?.width === undefined ? 'auto' : this.decoration?.width};
