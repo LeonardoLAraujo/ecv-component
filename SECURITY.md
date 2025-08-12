@@ -16,7 +16,7 @@ Instead, contact the maintainers directly so we can address it promptly.
 
 **Contact:**
 - Leonardo L. Araújo — [GitHub Profile](https://github.com/LeonardoLAraujo)
-- Ronaldo Pereira — [GitHub Profile](https://github.com/rounknow)
+- Ronaldo Moreira — [GitHub Profile](https://github.com/rounknow)
 
 You can also email us at:
 
