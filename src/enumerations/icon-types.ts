@@ -21,6 +21,8 @@ export enum IconTypes {
    FullCoverage        = "full_coverage",
    Fullscreen          = "fullscreen",
    GridView            = "grid_view",
+   Image               = "image",
+   ImageArrowUp        = "image_arrow_up",
    InterpreterMode     = "interpreter_mode",
    InvertColor         = "invert_colors",
    LiveTV              = "live_tv",
